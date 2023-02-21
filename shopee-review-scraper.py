@@ -28,7 +28,7 @@ for link in all_links_list:
             text_review = ""
             for content in reviews:
                 text_review += content.text
-            print("TEXTS: " + text_review + "\n")
+            print("TEXTS: " + text_review + "\t\n")
 
         else: first_reviews.append('None')
         print("NEXT REVIEWER!!!")
