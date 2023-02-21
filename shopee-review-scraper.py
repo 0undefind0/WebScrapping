@@ -18,7 +18,9 @@ for link in all_links_list:
     comments = soup.find_all('div', {'class':'shopee-product-comment-list'})
     time.sleep(3)
     for element in comments:
-        reviews = element.find_all('div', {'class':'Rk6V+3'})
+        # Each element is a Review Card consisting of (reviewer pfp, reviewer censord name, stars, time/date and variation of product, optional comment, optional media)
+
+        reviews = element.find_all('div', {'class':'Rk6V+3'}) # extract optional comment (class Rk6V+3)
         if len(reviews) > 0:
             first_reviews.append(reviews[0])
 
