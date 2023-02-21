@@ -27,8 +27,8 @@ for link in all_links_list:
             # harvest textcontent per reviewer
             text_review = ""
             for content in reviews:
-                text_review += content.text
-            print("TEXTS: " + text_review + "\t\n")
+                text_review += content.text + "\t\n"
+            print("TEXTS: " + text_review)
 
         else: first_reviews.append('None')
         print("NEXT REVIEWER!!!")
