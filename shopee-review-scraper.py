@@ -5,8 +5,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-# all_links_list = ["https://shopee.ph//CK-ETERNITY-EDT-100ML-i.250700043.19173102207?sp_atk=84080359-385e-43bf-9660-649247a92a6d&xptdk=84080359-385e-43bf-9660-649247a92a6d", "https://shopee.ph//AIKEDA-Scents-Long-lasting-inspired-perfume-Premium-Oil-Based-perfume-for-women-i.423471202.23919964850?sp_atk=ef85e17f-24a3-46b4-8bc1-079518e8d7ca&xptdk=ef85e17f-24a3-46b4-8bc1-079518e8d7ca"]
-all_links_list = ["https://shopee.ph//AIKEDA-Scents-Long-lasting-inspired-perfume-Premium-Oil-Based-perfume-for-women-i.423471202.23919964850?sp_atk=ef85e17f-24a3-46b4-8bc1-079518e8d7ca&xptdk=ef85e17f-24a3-46b4-8bc1-079518e8d7ca"]
+all_links_list = ["https://shopee.ph//CK-ETERNITY-EDT-100ML-i.250700043.19173102207?sp_atk=84080359-385e-43bf-9660-649247a92a6d&xptdk=84080359-385e-43bf-9660-649247a92a6d", "https://shopee.ph//AIKEDA-Scents-Long-lasting-inspired-perfume-Premium-Oil-Based-perfume-for-women-i.423471202.23919964850?sp_atk=ef85e17f-24a3-46b4-8bc1-079518e8d7ca&xptdk=ef85e17f-24a3-46b4-8bc1-079518e8d7ca"]
+# all_links_list = ["https://shopee.ph//AIKEDA-Scents-Long-lasting-inspired-perfume-Premium-Oil-Based-perfume-for-women-i.423471202.23919964850?sp_atk=ef85e17f-24a3-46b4-8bc1-079518e8d7ca&xptdk=ef85e17f-24a3-46b4-8bc1-079518e8d7ca"]
 
 first_reviews = []
 all_reviews = [] #JSON with structure [{producturl: "https://blabla", reviews: [{name: "as****ddd", stars: 5, date, comment}] }]
@@ -24,6 +24,8 @@ for link in all_links_list:
 
     # find product ratings section
     ratinglist = soup.find_all('div', {'class':'product-ratings__list'})
+    if not len(ratinglist) > 0:
+        continue
     comments = ratinglist[0].find('div', {'class':'shopee-product-comment-list'})
     time.sleep(3)
     for element in comments:
