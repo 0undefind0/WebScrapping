@@ -16,40 +16,45 @@ driver = webdriver.Chrome()
 for link in all_links_list:
     driver.get(link)
     driver.execute_script("document.body.style.zoom='50%'")
-    time.sleep(7)
+    time.sleep(5)
     data = driver.page_source
     soup = bs4.BeautifulSoup(data, features="html.parser")
 
     product_url = driver.current_url
+    
+    while True:
+         # find product ratings section
+        ratinglist = soup.find_all('div', {'class':'product-ratings__list'})
+        if not len(ratinglist) > 0:
+            break
 
-    # find product ratings section
-    ratinglist = soup.find_all('div', {'class':'product-ratings__list'})
-    if not len(ratinglist) > 0:
-        continue
-    comments = ratinglist[0].find('div', {'class':'shopee-product-comment-list'})
-    time.sleep(3)
-    for element in comments:
-        # Each element is a Review Card consisting of (reviewer pfp, reviewer censord name, stars, time/date and variation of product, optional comment, optional media)
+        comments = ratinglist[0].find('div', {'class':'shopee-product-comment-list'})
+        time.sleep(2)
+        for element in comments:
+            # Each element is a Review Card consisting of (reviewer pfp, reviewer censord name, stars, time/date and variation of product, optional comment, optional media)
 
-        reviews = element.find_all('div', {'class':'Rk6V+3'}) # extract optional comment (class Rk6V+3)
-        if len(reviews) > 0:
-            first_reviews.append(reviews[0])
+            reviews = element.find_all('div', {'class':'Rk6V+3'}) # extract optional comment (class Rk6V+3)
+            if len(reviews) > 0:
+                first_reviews.append(reviews[0])
 
-            # harvest textcontent per reviewer
-            text_review = ""
-            for content in reviews:
-                text_review += content.text + "\t\n"
-            print("TEXTS: " + text_review)
+                # harvest textcontent per reviewer
+                text_review = ""
+                for content in reviews:
+                    text_review += content.text + "\t\n"
+                print("TEXTS: " + text_review)
 
-        else: first_reviews.append('None')
-        print("NEXT REVIEWER!!!")
+            else: first_reviews.append('None')
+            print("NEXT REVIEWER!!!")
 
-    # Go next page if there is one
-    nextbtn = WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "div.shopee-page-controller.product-ratings__page-controller > button.shopee-icon-button.shopee-icon-button--right")))
-    driver.execute_script("arguments[0].click();", nextbtn)
-    print("\n\n\nClicked!\n")
+        # Go next page if there is one
+        nextbtn = WebDriverWait(driver, 2).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "div.shopee-page-controller.product-ratings__page-controller > button.shopee-icon-button.shopee-icon-button--right")))
+        driver.execute_script("arguments[0].click();", nextbtn)
+        if (not nextbtn.is_displayed()):
+            print("No more next pages", type(nextbtn.is_displayed()))
+            break
+        print("\n\n\nClicked!\n")
 
-    time.sleep(2)
+        time.sleep(2)
 
 with open('first_reviews.txt', 'w' , encoding="utf-8") as f:
     print(first_reviews, file=f)
