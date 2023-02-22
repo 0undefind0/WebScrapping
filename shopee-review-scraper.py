@@ -11,7 +11,7 @@ driver = webdriver.Chrome()
 
 for link in all_links_list:
     driver.get(link)
-    time.sleep(2)
+    time.sleep(4)
     data = driver.page_source
     soup = bs4.BeautifulSoup(data, features="html.parser")
 
@@ -35,6 +35,7 @@ for link in all_links_list:
 
         else: first_reviews.append('None')
         print("NEXT REVIEWER!!!")
+
     
 
 with open('first_reviews.txt', 'w' , encoding="utf-8") as f:
