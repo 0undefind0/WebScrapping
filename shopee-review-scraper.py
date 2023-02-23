@@ -22,30 +22,42 @@ for link in all_links_list:
 
     product_url = driver.current_url
     
+
+    end_of_page = False
     while True:
         time.sleep(1)
-         # find product ratings section
-        ratinglist = soup.find_all('div', {'class':'product-ratings__list'})
-        if not len(ratinglist) > 0:
+        # Find product ratings section
+        try:
+            ratinglist2 = driver.find_element(By.CSS_SELECTOR, ".shopee-product-comment-list")
+        except:
             break
 
-        comments = ratinglist[0].find('div', {'class':'shopee-product-comment-list'})
+        # Get the list of review cards
+        comments2 = ratinglist2.find_elements(By.CSS_SELECTOR, ".shopee-product-rating")
         time.sleep(2)
-        for element in comments:
+        
+        
+        for element in comments2: 
             # Each element is a Review Card consisting of (reviewer pfp, reviewer censord name, stars, time/date and variation of product, optional comment, optional media)
 
-            reviews = element.find_all('div', {'class':'Rk6V+3'}) # extract optional comment (class Rk6V+3)
-            if len(reviews) > 0:
-                first_reviews.append(reviews[0])
+            try: 
+                review = element.find_element(By.CSS_SELECTOR, "div.Rk6V\+3")# extract optional comment (class Rk6V+3)  #convert to selenium
+                if review:
+                    first_reviews.append(review) #convert to selenium
 
-                # harvest textcontent per reviewer
-                text_review = ""
-                for content in reviews:
-                    text_review += content.text + "\t\n"
-                print("TEXTS: " + text_review)
+                    # harvest textcontent per reviewer
+                    text_review = ""
+                    
+                    text_review += review.text + "\t\n"
 
-            else: first_reviews.append('None')
-            print("NEXT REVIEWER!!!")
+                    print("TEXTS: " + text_review)
+
+                else: first_reviews.append('None') #convert to selenium
+                print("------------------")
+
+            except:
+                break
+
 
         # Go next page if there is one
         nextbtn = WebDriverWait(driver, 2).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "div.shopee-page-controller.product-ratings__page-controller > button.shopee-icon-button.shopee-icon-button--right")))
@@ -53,12 +65,17 @@ for link in all_links_list:
 
         finalbtn = driver.find_element(By.CSS_SELECTOR, 'div.shopee-page-controller.product-ratings__page-controller > button:nth-last-child(2)')
 
-        if (finalbtn or (not nextbtn.is_displayed())):
+        if ("shopee-button-solid" in finalbtn.get_attribute("class") or (not nextbtn.is_displayed())):
             print("No more next pages")
-            break
-        print("\n\n\nClicked!\n")
+            
+            if end_of_page:
+                break
+
+            end_of_page = True
+
+        print("\nClicked!->NEXT-PAGE>\n")
 
         time.sleep(2)
 
-with open('first_reviews.txt', 'w' , encoding="utf-8") as f:
+with open('first_reviews2.txt', 'w' , encoding="utf-8") as f:
     print(first_reviews, file=f)
