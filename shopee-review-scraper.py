@@ -49,7 +49,10 @@ for link in all_links_list:
         # Go next page if there is one
         nextbtn = WebDriverWait(driver, 2).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "div.shopee-page-controller.product-ratings__page-controller > button.shopee-icon-button.shopee-icon-button--right")))
         driver.execute_script("arguments[0].click();", nextbtn)
-        if (not nextbtn.is_displayed()):
+
+        finalbtn = driver.find_element(By.CSS_SELECTOR, 'div.shopee-page-controller.product-ratings__page-controller > button:nth-last-child(2)')
+
+        if (finalbtn or (not nextbtn.is_displayed())):
             print("No more next pages", type(nextbtn.is_displayed()))
             break
         print("\n\n\nClicked!\n")
