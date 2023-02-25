@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-all_links_list = ["https://shopee.ph//CK-ETERNITY-EDT-100ML-i.250700043.19173102207?sp_atk=84080359-385e-43bf-9660-649247a92a6d&xptdk=84080359-385e-43bf-9660-649247a92a6d", "https://shopee.ph//AIKEDA-Scents-Long-lasting-inspired-perfume-Premium-Oil-Based-perfume-for-women-i.423471202.23919964850?sp_atk=ef85e17f-24a3-46b4-8bc1-079518e8d7ca&xptdk=ef85e17f-24a3-46b4-8bc1-079518e8d7ca", "https://shopee.ph//Authentic-CK-Eternity-for-Men-100ml-Scentro-Style-i.286768164.8273812079?sp_atk=f389407c-0079-4756-ae4d-c5bd7eb61fd7&xptdk=f389407c-0079-4756-ae4d-c5bd7eb61fd7"]
+all_links_list = ["https://shopee.ph//CK-ETERNITY-EDT-100ML-i.250700043.19173102207?sp_atk=84080359-385e-43bf-9660-649247a92a6d&xptdk=84080359-385e-43bf-9660-649247a92a6d", "https://shopee.ph//AIKEDA-Scents-Long-lasting-inspired-perfume-Premium-Oil-Based-perfume-for-women-i.423471202.23919964850?sp_atk=ef85e17f-24a3-46b4-8bc1-079518e8d7ca&xptdk=ef85e17f-24a3-46b4-8bc1-079518e8d7ca", "https://shopee.ph//Authentic-CK-Eternity-for-Men-100ml-Scentro-Style-i.286768164.8273812079?sp_atk=f389407c-0079-4756-ae4d-c5bd7eb61fd7&xptdk=f389407c-0079-4756-ae4d-c5bd7eb61fd7", "https://shopee.ph//Like-CK-One-by-Calvin-Klein-You'll-love-our-U-YOU-Fragrance-Body-Spray-2.5oz-70.9g-i.92328166.13631362105?sp_atk=8786351e-8bb3-4f97-beeb-034f1526803b&xptdk=8786351e-8bb3-4f97-beeb-034f1526803b"]
 # all_links_list = ["https://shopee.ph//AIKEDA-Scents-Long-lasting-inspired-perfume-Premium-Oil-Based-perfume-for-women-i.423471202.23919964850?sp_atk=ef85e17f-24a3-46b4-8bc1-079518e8d7ca&xptdk=ef85e17f-24a3-46b4-8bc1-079518e8d7ca"]
 
 first_reviews = []
@@ -22,6 +22,7 @@ for link in all_links_list:
 
     product_url = driver.current_url
     
+    print("SCRAPING " + driver.title)
 
     end_of_page = False
     while True:
