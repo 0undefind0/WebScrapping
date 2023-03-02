@@ -3,3 +3,6 @@
 
 # Ignore all html files
 *.html
+
+# Ignore .env files
+.env
