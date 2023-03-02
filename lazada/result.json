@@ -1,0 +1,1277 @@
+{
+  "result": {
+    "status": {
+      "data": "success",
+      "code": 200,
+      "executionTime": "7.37",
+      "requestTime": "2023-03-02 12:00:00",
+      "endpoint": "item_search",
+      "requestId": "6fe7471bca565db75230ca8c037193d5",
+      "apiVersion": "3.1.2",
+      "functionsVersion": "3.0.5",
+      "la": "0.00",
+      "pmu": 1062152,
+      "mu": 1061832
+    },
+    "settings": {
+      "q": "laptop stand",
+      "loc": "",
+      "attr": "",
+      "sort": "default",
+      "page": "1",
+      "startPrice": "",
+      "endPrice": "",
+      "region": "PH",
+      "locale": "en_SG",
+      "currency": "PHP"
+    },
+    "base": {
+      "page": "1",
+      "totalResults": "133229",
+      "pageSize": "40",
+      "q": "laptop stand",
+      "sortValues": [
+        "default",
+        "priceAsc",
+        "priceDesc"
+      ],
+      "switchesList": {
+        "name": "Service & Promotion",
+        "list": [
+          {
+            "name": "Sale",
+            "id": "bday_sale",
+            "image": "//lzd-img-global.slatic.net/us/lzd-onepiece/26969717579bd84a23cb673dccf5ce09NewProject(32).png"
+          },
+          {
+            "name": "LazTop",
+            "id": "lazpick",
+            "image": "//gw.alicdn.com/imgextra/i4/O1CN01eJliYM1RweaFLu1D1_!!6000000002176-2-tps-60-60.png"
+          },
+          {
+            "name": "Cashback",
+            "id": "cashback",
+            "image": "//img.alicdn.com/imgextra/i3/O1CN01m92Vn125c7RnAP4aL_!!6000000007546-2-tps-60-60.png"
+          },
+          {
+            "name": "Fulfilled By Lazada",
+            "id": "FBL"
+          },
+          {
+            "name": "Same Day Delivery Metro Manila",
+            "id": "INSTANT"
+          },
+          {
+            "name": "LazMall",
+            "id": "official",
+            "image": "//gw.alicdn.com/imgextra/i3/O1CN01SOxgmS1zfQX5caIQS_!!6000000006741-2-tps-60-60.png"
+          },
+          {
+            "name": "Priority Delivery",
+            "id": "FLASH_SHIPPING",
+            "image": "//img.alicdn.com/imgextra/i4/O1CN0115NZlQ1Z3i1a58SMe_!!6000000003139-2-tps-60-61.png"
+          },
+          {
+            "name": "Cash On Delivery",
+            "id": "COD"
+          },
+          {
+            "name": "Free Shipping",
+            "id": "freeShipping",
+            "image": "//gw.alicdn.com/imgextra/i1/O1CN01VY6fyb1KPwum3OzZA_!!6000000001157-2-tps-60-60.png"
+          },
+          {
+            "name": "Coins",
+            "id": "coins",
+            "image": "//img.alicdn.com/imgextra/i1/O1CN01u545I31bGePSQtbYH_!!6000000003438-2-tps-60-60.png"
+          },
+          {
+            "name": "LazGlobal",
+            "id": "gc"
+          }
+        ]
+      },
+      "locationList": {
+        "name": "Location",
+        "list": [
+          {
+            "name": "Local",
+            "id": "Local"
+          },
+          {
+            "name": "Overseas",
+            "id": "Overseas"
+          },
+          {
+            "name": "Cavite",
+            "id": "Cavite"
+          },
+          {
+            "name": "Local",
+            "id": "Local"
+          },
+          {
+            "name": "Metro Manila",
+            "id": "Metro Manila"
+          },
+          {
+            "name": "Abra",
+            "id": "Abra"
+          },
+          {
+            "name": "Bulacan",
+            "id": "Bulacan"
+          },
+          {
+            "name": "Laguna",
+            "id": "Laguna"
+          },
+          {
+            "name": "Agusan Del Norte",
+            "id": "Agusan Del Norte"
+          },
+          {
+            "name": "Rizal",
+            "id": "Rizal"
+          },
+          {
+            "name": "Nueva Ecija",
+            "id": "Nueva Ecija"
+          },
+          {
+            "name": "Pampanga",
+            "id": "Pampanga"
+          },
+          {
+            "name": "Cebu",
+            "id": "Cebu"
+          },
+          {
+            "name": "Eastern Samar",
+            "id": "Eastern Samar"
+          },
+          {
+            "name": "Davao Del Sur",
+            "id": "Davao Del Sur"
+          },
+          {
+            "name": "Benguet",
+            "id": "Benguet"
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "name": "Compatible Laptop Size",
+          "list": [
+            {
+              "name": "11-15 inches",
+              "id": "100006415:92178"
+            },
+            {
+              "name": "15-20 inches",
+              "id": "100006415:88276"
+            },
+            {
+              "name": "5-10 inches",
+              "id": "100006415:98976"
+            },
+            {
+              "name": "21 and up",
+              "id": "100006415:84966"
+            }
+          ]
+        },
+        {
+          "name": "Color Family",
+          "list": [
+            {
+              "name": "Black",
+              "id": "100005642:134"
+            },
+            {
+              "name": "Silver",
+              "id": "100005642:56961"
+            },
+            {
+              "name": "White",
+              "id": "100005642:48793"
+            },
+            {
+              "name": "Pink",
+              "id": "100005642:587"
+            },
+            {
+              "name": "Grey",
+              "id": "100005642:75851"
+            },
+            {
+              "name": "Gold",
+              "id": "100005642:99454"
+            },
+            {
+              "name": "Rose Gold",
+              "id": "100005642:91267"
+            },
+            {
+              "name": "Brown",
+              "id": "100005642:146"
+            },
+            {
+              "name": "Red",
+              "id": "100005642:404"
+            },
+            {
+              "name": "Space Grey",
+              "id": "100005642:188419"
+            },
+            {
+              "name": "Dark Grey",
+              "id": "100005642:130029"
+            },
+            {
+              "name": "Blue",
+              "id": "100005642:1780"
+            },
+            {
+              "name": "Green",
+              "id": "100005642:242"
+            },
+            {
+              "name": "Deep Gray",
+              "id": "100005642:188148"
+            },
+            {
+              "name": "Beige",
+              "id": "100005642:76705"
+            },
+            {
+              "name": "Blue",
+              "id": "100005642:120003003"
+            },
+            {
+              "name": "Orange",
+              "id": "100005642:2066"
+            }
+          ]
+        },
+        {
+          "name": "condition",
+          "list": [
+            {
+              "name": "New",
+              "id": "100006478:99601"
+            },
+            {
+              "name": "NEW",
+              "id": "100006478:19974"
+            }
+          ]
+        },
+        {
+          "name": "Number of fans",
+          "list": [
+            {
+              "name": "1",
+              "id": "100006372:75730"
+            },
+            {
+              "name": "2",
+              "id": "100006372:75739"
+            },
+            {
+              "name": "5 and up",
+              "id": "100006372:82181"
+            }
+          ]
+        },
+        {
+          "name": "Plug Type",
+          "list": [
+            {
+              "name": "Type C",
+              "id": "120013475:78502"
+            },
+            {
+              "name": "Universal",
+              "id": "120013475:4151"
+            }
+          ]
+        }
+      ],
+      "categoryList": {
+        "name": "Category",
+        "list": [
+          {
+            "name": "Laptop stands",
+            "id": "shop-laptop-stands"
+          },
+          {
+            "name": "Cooling Pads/Cooling Stands",
+            "id": "shop-computer-cooling-pads-stands"
+          },
+          {
+            "name": "Laptop Batteries",
+            "id": "shop-computer-batteries"
+          },
+          {
+            "name": "Mac Accessories",
+            "id": "shop-mac-accessories-2"
+          },
+          {
+            "name": "All-in-One Desktop",
+            "id": "shop-all-in-one-desktops"
+          },
+          {
+            "name": "Laptop cases",
+            "id": "shop-laptop-cases"
+          },
+          {
+            "name": "Home Office Desks",
+            "id": "shop-home-office-desks"
+          },
+          {
+            "name": "Phone Docks & Stands",
+            "id": "shop-dock"
+          },
+          {
+            "name": "PC Heatsinks",
+            "id": "shop-cpu-fans-heatsinks"
+          }
+        ]
+      }
+    },
+    "resultList": [
+      {
+        "item": {
+          "itemId": "3296799342",
+          "title": "【Manila Stock】ESCAM Laptop Stand Laptop Stand Holder Laptop Stand Heavy Duty Notebook Laptop Stand Aluminum alloy Adjustable Aluminum Laptop Stand Foldtable Table With Bracket Laptop Stand  Laptop Holder riser Stand for computers within 15-18 inche",
+          "brandId": "26850",
+          "brandName": "ESCAM",
+          "itemUrl": "//www.lazada.com.ph/products/manila-stockescam-laptop-stand-laptop-stand-holder-laptop-stand-heavy-duty-notebook-laptop-stand-aluminum-alloy-adjustable-aluminum-laptop-stand-foldtable-table-with-bracket-laptop-stand-laptop-holder-riser-stand-for-computers-within-15-18-inche-i3296799342-s16687214904.html",
+          "sales": null,
+          "image": "//ph-live-01.slatic.net/p/e770b68813d922be62aef4d780f0aa64.jpg",
+          "thumbnails": [
+            {
+              "image": "//my-live-02.slatic.net/p/1572f620146818f471581fadfe632e51.jpg",
+              "sku": "3296799342_PH",
+              "skuId": "16687214904"
+            },
+            {
+              "image": "//my-live-02.slatic.net/p/1572f620146818f471581fadfe632e51.jpg",
+              "sku": "3296799342_PH",
+              "skuId": "16687214903"
+            },
+            {
+              "image": "//my-live-02.slatic.net/p/1572f620146818f471581fadfe632e51.jpg",
+              "sku": "3296799342_PH",
+              "skuId": "16687214902"
+            }
+          ],
+          "sku": {
+            "def": {
+              "price": "149",
+              "promotionPrice": "28"
+            }
+          },
+          "reviewCount": "2",
+          "averageStarRate": "5.00"
+        },
+        "delivery": {
+          "freeShipping": null,
+          "shippingFrom": "Laguna"
+        },
+        "seller": {
+          "sellerId": "15477",
+          "sellerTitle": "TVC-MALL"
+        }
+      },
+      {
+        "item": {
+          "itemId": "1412168478",
+          "title": "Mobile Club Portable Plastic and Alloy Laptop Stand Foldable Support Base Notebook Stand Holder For Macbook Pro Air HP Lap desk Computer Cooling Bracket Riser",
+          "brandId": "29872",
+          "brandName": "No Brand",
+          "itemUrl": "//www.lazada.com.ph/products/mobile-club-portable-plastic-and-alloy-laptop-stand-foldable-support-base-notebook-stand-holder-for-macbook-pro-air-hp-lap-desk-computer-cooling-bracket-riser-i1412168478-s5279794695.html",
+          "sales": null,
+          "image": "//ph-live-01.slatic.net/p/2067828090530f4dae43091f31b47603.jpg",
+          "thumbnails": [
+            {
+              "image": "//ph-live-01.slatic.net/p/c4dc08dfaf76c3f5be21f13c6671d298.jpg",
+              "sku": "1412168478_PH",
+              "skuId": "5279794695"
+            },
+            {
+              "image": "//sg-live-01.slatic.net/p/e367e5d69d5275651f79be59097decd3.png",
+              "sku": "1412168478_PH",
+              "skuId": "14444531681"
+            },
+            {
+              "image": "//ph-live-01.slatic.net/p/5adbefeac195e5212e24e38c72e5863f.jpg",
+              "sku": "1412168478_PH",
+              "skuId": "5279794696"
+            },
+            {
+              "image": "//ph-live-01.slatic.net/p/b44aa3c6591290a8b01ee16cc9105f69.jpg",
+              "sku": "1412168478_PH",
+              "skuId": "5279794697"
+            }
+          ],
+          "sku": {
+            "def": {
+              "price": "599",
+              "promotionPrice": "32"
+            }
+          },
+          "reviewCount": "1820",
+          "averageStarRate": "4.46"
+        },
+        "delivery": {
+          "freeShipping": null,
+          "shippingFrom": "Metro Manila"
+        },
+        "seller": {
+          "sellerId": "1000304827",
+          "sellerTitle": "Mobile Club"
+        }
+      },
+      {
+        "item": {
+          "itemId": "2715680736",
+          "title": "Laptop Stand Aluminum Alloy Material Foldable Portable Laptop Heighten Bracket Notebook",
+          "brandId": "196882",
+          "brandName": "laptop",
+          "itemUrl": "//www.lazada.com.ph/products/laptop-stand-aluminum-alloy-material-foldable-portable-laptop-heighten-bracket-notebook-i2715680736-s12997636999.html",
+          "sales": null,
+          "image": "//sg-live-01.slatic.net/p/cbd680d13dd3133598a6d5016718c220.jpg",
+          "thumbnails": [
+            {
+              "image": "//sg-live-01.slatic.net/p/c7987aaedbc1b74ff3cac13e56989f6b.jpg",
+              "sku": "2715680736_PH",
+              "skuId": "12997636999"
+            }
+          ],
+          "sku": {
+            "def": {
+              "price": "119",
+              "promotionPrice": "29"
+            }
+          },
+          "reviewCount": "19",
+          "averageStarRate": "4.58"
+        },
+        "delivery": {
+          "freeShipping": null,
+          "shippingFrom": "Metro Manila"
+        },
+        "seller": {
+          "sellerId": "500159415034",
+          "sellerTitle": "Craft Angel"
+        }
+      },
+      {
+        "item": {
+          "itemId": "2847570946",
+          "title": "TOKED Aluminum Alloy Laptop Stand Portable 11-15 inch Laptop Stand Foldable Laptop Holder Adjustable Laptop Holder Desktop Laptop Riser MacBook Computer Stand",
+          "brandId": "29872",
+          "brandName": "No Brand",
+          "itemUrl": "//www.lazada.com.ph/products/toked-aluminum-alloy-laptop-stand-portable-11-15-inch-laptop-stand-foldable-laptop-holder-adjustable-laptop-holder-desktop-laptop-riser-macbook-computer-stand-i2847570946-s14598295460.html",
+          "sales": null,
+          "image": "//sg-live-01.slatic.net/p/a5ca321816548b6233c58f3f415e88cd.jpg",
+          "thumbnails": [
+            {
+              "image": "//sg-live-01.slatic.net/p/b5709fb8dd77bdce0feebf945dedc460.jpg",
+              "sku": "2847570946_PH",
+              "skuId": "14598295460"
+            },
+            {
+              "image": "//sg-live-01.slatic.net/p/6973c8b31b7eebc2544c50cd9792efa3.jpg",
+              "sku": "2847570946_PH",
+              "skuId": "14598295459"
+            },
+            {
+              "image": "//ph-live-01.slatic.net/p/ea216ecbb951f0bf6d0b0b65adf50d2b.jpg",
+              "sku": "2847570946_PH",
+              "skuId": "15948624730"
+            },
+            {
+              "image": "//ph-live-01.slatic.net/p/24a0070b75cfa8b9f27a4a8795f9dd1b.jpg",
+              "sku": "2847570946_PH",
+              "skuId": "15948624731"
+            },
+            {
+              "image": "//ph-live-01.slatic.net/p/896c0179c9a8866bb332a69889034e36.jpg",
+              "sku": "2847570946_PH",
+              "skuId": "15601065815"
+            },
+            {
+              "image": "//ph-live-01.slatic.net/p/b2d2fa50c55cf30f9fc0ffb206345d3b.jpg",
+              "sku": "2847570946_PH",
+              "skuId": "15601065816"
+            },
+            {
+              "image": "//ph-live-01.slatic.net/p/2305c0fc09af3bec3c4bb356e2fc001c.jpg",
+              "sku": "2847570946_PH",
+              "skuId": "15948624729"
+            }
+          ],
+          "sku": {
+            "def": {
+              "price": null,
+              "promotionPrice": "1013"
+            }
+          },
+          "reviewCount": "103",
+          "averageStarRate": "4.43"
+        },
+        "delivery": {
+          "freeShipping": null,
+          "shippingFrom": "Bulacan"
+        },
+        "seller": {
+          "sellerId": "500192844259",
+          "sellerTitle": "TOKED"
+        }
+      },
+      {
+        "item": {
+          "itemId": "2740193262",
+          "title": "【Ready Stock】Collapsible Laptop Stand Portable Hands Free ABS Adjustable Foldable Laptop Desk Stand",
+          "brandId": "29872",
+          "brandName": "No Brand",
+          "itemUrl": "//www.lazada.com.ph/products/ready-stockcollapsible-laptop-stand-portable-hands-free-abs-adjustable-foldable-laptop-desk-stand-i2740193262-s13133489862.html",
+          "sales": null,
+          "image": "//sg-live-01.slatic.net/p/ddd9f9d571614f7c8f65d5f76d068a52.jpg",
+          "thumbnails": [
+            {
+              "image": "//ph-live-01.slatic.net/p/1de8b52fa00f0dffd179232e5fcb4652.jpg",
+              "sku": "2740193262_PH",
+              "skuId": "13133489862"
+            },
+            {
+              "image": "//ph-live-01.slatic.net/p/e5f02a0d0c8b858bd5a07b818c6de4f3.jpg",
+              "sku": "2740193262_PH",
+              "skuId": "13133489863"
+            },
+            {
+              "image": "//ph-live-01.slatic.net/p/c52e6bcafe83782c5ca522e636f83b5b.jpg",
+              "sku": "2740193262_PH",
+              "skuId": "13133489861"
+            }
+          ],
+          "sku": {
+            "def": {
+              "price": "800",
+              "promotionPrice": "31"
+            }
+          },
+          "reviewCount": "83",
+          "averageStarRate": "4.61"
+        },
+        "delivery": {
+          "freeShipping": null,
+          "shippingFrom": "Bulacan"
+        },
+        "seller": {
+          "sellerId": "500184513005",
+          "sellerTitle": "Life Kit"
+        }
+      },
+      {
+        "item": {
+          "itemId": "1336358420",
+          "title": "ITOP P1 ABS Plastic Portable Laptop Stand Foldable Support Base Notebook Stand Holder For Macbook Pro Air HP Lapdesk Computer Cooling Bracket Riser",
+          "brandId": "29872",
+          "brandName": "No Brand",
+          "itemUrl": "//www.lazada.com.ph/products/itop-p1-abs-plastic-portable-laptop-stand-foldable-support-base-notebook-stand-holder-for-macbook-pro-air-hp-lapdesk-computer-cooling-bracket-riser-i1336358420-s4896720113.html",
+          "sales": null,
+          "image": "//ph-live-01.slatic.net/p/4f1fefc566827dcdbe09de99fa910619.jpg",
+          "thumbnails": [
+            {
+              "image": "//my-live-02.slatic.net/p/4f3783a9ea14690cf7d5a7ca60183d66.jpg",
+              "sku": "1336358420_PH",
+              "skuId": "4896720113"
+            },
+            {
+              "image": "//my-live-02.slatic.net/p/55f9383dd4a16167ff7898c9b907f4d3.jpg",
+              "sku": "1336358420_PH",
+              "skuId": "4896720112"
+            },
+            {
+              "image": "//my-live-02.slatic.net/p/e482da34d86f38eb88121f3f77fa9e7f.jpg",
+              "sku": "1336358420_PH",
+              "skuId": "4896720114"
+            }
+          ],
+          "sku": {
+            "def": {
+              "price": null,
+              "promotionPrice": "299"
+            }
+          },
+          "reviewCount": "2263",
+          "averageStarRate": "4.82"
+        },
+        "delivery": {
+          "freeShipping": null,
+          "shippingFrom": "Metro Manila"
+        },
+        "seller": {
+          "sellerId": "100119094",
+          "sellerTitle": "ITOP"
+        }
+      },
+      {
+        "item": {
+          "itemId": "2737436534",
+          "title": "【COD&Local】Adjustable Foldable Laptop Stand Non-slip Desktop Notebook Holder Laptop Stand For Macbook Pro Air iPad Pro Portable Support Stand Desktop Office",
+          "brandId": "29872",
+          "brandName": "No Brand",
+          "itemUrl": "//www.lazada.com.ph/products/codlocaladjustable-foldable-laptop-stand-non-slip-desktop-notebook-holder-laptop-stand-for-macbook-pro-air-ipad-pro-portable-support-stand-desktop-office-i2737436534-s14342911905.html",
+          "sales": null,
+          "image": "//ph-live-01.slatic.net/p/46b8a302710c45bc35d0dec6fec2f669.jpg",
+          "thumbnails": [
+            {
+              "image": "//sg-live-01.slatic.net/p/38e5028be0c18b92a94eeccb03c14527.jpg",
+              "sku": "2737436534_PH",
+              "skuId": "14342911905"
+            },
+            {
+              "image": "//ph-live-01.slatic.net/p/22827e4c873217b58d52183ed40892d8.jpg",
+              "sku": "2737436534_PH",
+              "skuId": "13116797212"
+            },
+            {
+              "image": "//ph-live-01.slatic.net/p/da3a3115e9036cda462716b07094504d.jpg",
+              "sku": "2737436534_PH",
+              "skuId": "13116797211"
+            }
+          ],
+          "sku": {
+            "def": {
+              "price": "200",
+              "promotionPrice": "37.04"
+            }
+          },
+          "reviewCount": "7",
+          "averageStarRate": "4.86"
+        },
+        "delivery": {
+          "freeShipping": null,
+          "shippingFrom": "Metro Manila"
+        },
+        "seller": {
+          "sellerId": "500188485077",
+          "sellerTitle": "Sogoal"
+        }
+      },
+      {
+        "item": {
+          "itemId": "2229938454",
+          "title": "DIGITAL Z21 Lightweight Plastic and Aluminum stand adjustable laptop stand foldable portable laptop MacBook stand",
+          "brandId": "29872",
+          "brandName": "No Brand",
+          "itemUrl": "//www.lazada.com.ph/products/digital-z21-lightweight-plastic-and-aluminum-stand-adjustable-laptop-stand-foldable-portable-laptop-macbook-stand-i2229938454-s10037204276.html",
+          "sales": null,
+          "image": "//ph-live-01.slatic.net/p/d1e4e2fe43c6a95b29c5e73c5833f72a.jpg",
+          "thumbnails": [
+            {
+              "image": "//ph-live-01.slatic.net/p/eba2fe110175c02c770b18d5df61a40d.jpg",
+              "sku": "2229938454_PH",
+              "skuId": "10037204276"
+            },
+            {
+              "image": "//ph-live-01.slatic.net/p/d1e4e2fe43c6a95b29c5e73c5833f72a.jpg",
+              "sku": "2229938454_PH",
+              "skuId": "16091711851"
+            },
+            {
+              "image": "//ph-live-01.slatic.net/p/ffdfaa16ee2576a8f0e2929b6e73c9c4.jpg",
+              "sku": "2229938454_PH",
+              "skuId": "10037204277"
+            },
+            {
+              "image": "//ph-live-01.slatic.net/p/713f60863e38543de1ff0f223df8f5d2.jpg",
+              "sku": "2229938454_PH",
+              "skuId": "10037204275"
+            }
+          ],
+          "sku": {
+            "def": {
+              "price": "199",
+              "promotionPrice": "35"
+            }
+          },
+          "reviewCount": "32",
+          "averageStarRate": "4.25"
+        },
+        "delivery": {
+          "freeShipping": null,
+          "shippingFrom": "Metro Manila"
+        },
+        "seller": {
+          "sellerId": "1000022275",
+          "sellerTitle": "DIGITALCITY"
+        }
+      },
+      {
+        "item": {
+          "itemId": "2895065505",
+          "title": "all stand shop laptop Stand Portable Hands Adjustable Foldable Laptop Desk Stand P6",
+          "brandId": "29872",
+          "brandName": "No Brand",
+          "itemUrl": "//www.lazada.com.ph/products/all-stand-shop-laptop-stand-portable-hands-adjustable-foldable-laptop-desk-stand-p6-i2895065505-s14069535866.html",
+          "sales": null,
+          "image": "//sg-live-01.slatic.net/p/1ab2a5e286e47434a5d97704e93b8e15.jpg",
+          "thumbnails": [
+            {
+              "image": "//sg-live-01.slatic.net/p/285ad979a11bf2c38a7003169412ef4a.jpg",
+              "sku": "2895065505_PH",
+              "skuId": "14069535866"
+            },
+            {
+              "image": "//sg-live-01.slatic.net/p/32125c4da9e08e03be866d52276cd013.jpg",
+              "sku": "2895065505_PH",
+              "skuId": "14069535865"
+            },
+            {
+              "image": "//sg-live-01.slatic.net/p/a50a3e675835a275e855ffb107382d9b.jpg",
+              "sku": "2895065505_PH",
+              "skuId": "14069535867"
+            },
+            {
+              "image": "//sg-live-01.slatic.net/p/1ab2a5e286e47434a5d97704e93b8e15.jpg",
+              "sku": "2895065505_PH",
+              "skuId": "14069535864"
+            }
+          ],
+          "sku": {
+            "def": {
+              "price": null,
+              "promotionPrice": "89"
+            }
+          },
+          "reviewCount": "394",
+          "averageStarRate": "4.54"
+        },
+        "delivery": {
+          "freeShipping": null,
+          "shippingFrom": "Metro Manila"
+        },
+        "seller": {
+          "sellerId": "100111055",
+          "sellerTitle": "ZAMA"
+        }
+      },
+      {
+        "item": {
+          "itemId": "3371323608",
+          "title": "M-SPACE Stand Portable Plastic Stand Stand for Laptop Laptop Stand Stander Stand Laptop Stand Aluminum Laptop Holder Tablet Stand",
+          "brandId": "124430019",
+          "brandName": "m-space",
+          "itemUrl": "//www.lazada.com.ph/products/m-space-stand-portable-plastic-stand-stand-for-laptop-laptop-stand-stander-stand-laptop-stand-aluminum-laptop-holder-tablet-stand-i3371323608-s17183671984.html",
+          "sales": null,
+          "image": "//ph-live-01.slatic.net/p/ee0871c624e6bbfa96d89d51db2234c0.jpg",
+          "thumbnails": [
+            {
+              "image": "//ph-live-01.slatic.net/p/adcc0acb54fc1b86fae59e41c5fbfa43.jpg",
+              "sku": "3371323608_PH",
+              "skuId": "17183671984"
+            },
+            {
+              "image": "//ph-live-01.slatic.net/p/8b91291f848917e21713ca063375a5d9.jpg",
+              "sku": "3371323608_PH",
+              "skuId": "17577857075"
+            },
+            {
+              "image": "//ph-live-01.slatic.net/p/364256a946d86e4d70343c456e252c98.jpg",
+              "sku": "3371323608_PH",
+              "skuId": "17577857073"
+            },
+            {
+              "image": "//ph-live-01.slatic.net/p/3cdc648b1544156744b84db5f221407b.jpg",
+              "sku": "3371323608_PH",
+              "skuId": "17183671982"
+            }
+          ],
+          "sku": {
+            "def": {
+              "price": null,
+              "promotionPrice": "99"
+            }
+          },
+          "reviewCount": "37",
+          "averageStarRate": "4.62"
+        },
+        "delivery": {
+          "freeShipping": null,
+          "shippingFrom": "Metro Manila"
+        },
+        "seller": {
+          "sellerId": "500220033694",
+          "sellerTitle": "M-SPACE  Store"
+        }
+      },
+      {
+        "item": {
+          "itemId": "3021156666",
+          "title": "Agila Stand Portable Plastic Stand Stand for Laptop Laptop Stand Stander Stand Laptop Stand Aluminum Laptop Holder Tablet Stand",
+          "brandId": "71705",
+          "brandName": "Agila",
+          "itemUrl": "//www.lazada.com.ph/products/agila-stand-portable-plastic-stand-stand-for-laptop-laptop-stand-stander-stand-laptop-stand-aluminum-laptop-holder-tablet-stand-i3021156666-s14855171841.html",
+          "sales": null,
+          "image": "//ph-live-01.slatic.net/p/ee0871c624e6bbfa96d89d51db2234c0.jpg",
+          "thumbnails": [
+            {
+              "image": "//ph-live-01.slatic.net/p/cca2fa3e7ac0703b9998ba44ab32c431.jpg",
+              "sku": "3021156666_PH",
+              "skuId": "14855171841"
+            },
+            {
+              "image": "//ph-live-01.slatic.net/p/2b0e14393cca178493d0d060b1df49be.jpg",
+              "sku": "3021156666_PH",
+              "skuId": "14855171840"
+            },
+            {
+              "image": "//ph-live-01.slatic.net/p/a83a4871550a66d3ac0215e34dd0b8fa.jpg",
+              "sku": "3021156666_PH",
+              "skuId": "17577567718"
+            },
+            {
+              "image": "//ph-live-01.slatic.net/p/37cdfd3048703cdaded802a9ba4fbabf.jpg",
+              "sku": "3021156666_PH",
+              "skuId": "17577567717"
+            }
+          ],
+          "sku": {
+            "def": {
+              "price": null,
+              "promotionPrice": "79"
+            }
+          },
+          "reviewCount": "4",
+          "averageStarRate": "4.00"
+        },
+        "delivery": {
+          "freeShipping": null,
+          "shippingFrom": "Metro Manila"
+        },
+        "seller": {
+          "sellerId": "100061856",
+          "sellerTitle": "agila general merchandise"
+        }
+      },
+      {
+        "item": {
+          "itemId": "1254548097",
+          "title": "K1/N8 Aluminum Alloy Creative Laptop Stand",
+          "brandId": "29872",
+          "brandName": "No Brand",
+          "itemUrl": "//www.lazada.com.ph/products/k1n8-aluminum-alloy-creative-laptop-stand-i1254548097-s17123098528.html",
+          "sales": null,
+          "image": "//ph-live-01.slatic.net/p/9301859f354a1b3f6bdda81e2d31da7b.jpg",
+          "thumbnails": [
+            {
+              "image": "//ph-live-01.slatic.net/p/6df8263bf37fef86d7af682b8b216d9f.jpg",
+              "sku": "1254548097_PH",
+              "skuId": "17123098528"
+            }
+          ],
+          "sku": {
+            "def": {
+              "price": "700",
+              "promotionPrice": "163"
+            }
+          },
+          "reviewCount": "7",
+          "averageStarRate": "5.00"
+        },
+        "delivery": {
+          "freeShipping": null,
+          "shippingFrom": "Metro Manila"
+        },
+        "seller": {
+          "sellerId": "100013354",
+          "sellerTitle": "JNL Shop"
+        }
+      },
+      {
+        "item": {
+          "itemId": "3179591440",
+          "title": "【Ready Stock】Portable Laptop Stand Aluminium Foldable Notebook Support Laptop Base Holder Adjustable Bracket Computer Accessory",
+          "brandId": "29872",
+          "brandName": "No Brand",
+          "itemUrl": "//www.lazada.com.ph/products/ready-stockportable-laptop-stand-aluminium-foldable-notebook-support-laptop-base-holder-adjustable-bracket-computer-accessory-i3179591440-s15862370410.html",
+          "sales": null,
+          "image": "//ph-live-01.slatic.net/p/35e0b19fee8335a46ab1a9c06a8f3dd4.jpg",
+          "thumbnails": [
+            {
+              "image": "//ph-live-01.slatic.net/p/dedd509c4adb1f4a34954425ceaaf657.jpg",
+              "sku": "3179591440_PH",
+              "skuId": "15862370410"
+            },
+            {
+              "image": "//ph-live-01.slatic.net/p/02c6a8f274a0fc2e1aa106a6f3c3b6f3.jpg",
+              "sku": "3179591440_PH",
+              "skuId": "15862370406"
+            },
+            {
+              "image": "//ph-live-01.slatic.net/p/dbf108447d03c36aa6194c75cf75c504.jpg",
+              "sku": "3179591440_PH",
+              "skuId": "15862370407"
+            },
+            {
+              "image": "//ph-live-01.slatic.net/p/655b741b1d264f5643da7f41cae55b4c.jpg",
+              "sku": "3179591440_PH",
+              "skuId": "15862370413"
+            },
+            {
+              "image": "//ph-live-01.slatic.net/p/78c6230fef41724b89f29de79aa623cf.jpg",
+              "sku": "3179591440_PH",
+              "skuId": "15862370411"
+            },
+            {
+              "image": "//ph-live-01.slatic.net/p/1308bb55fb276b3381366fd636eade1a.jpg",
+              "sku": "3179591440_PH",
+              "skuId": "15862370412"
+            },
+            {
+              "image": "//ph-live-01.slatic.net/p/2e2bb13d86134a70254a6f454a10b0bd.jpg",
+              "sku": "3179591440_PH",
+              "skuId": "15862370408"
+            },
+            {
+              "image": "//ph-live-01.slatic.net/p/869e6bd135f490f25e72d1239b6fc4ba.jpg",
+              "sku": "3179591440_PH",
+              "skuId": "15862370409"
+            }
+          ],
+          "sku": {
+            "def": {
+              "price": null,
+              "promotionPrice": "203"
+            }
+          },
+          "reviewCount": "2",
+          "averageStarRate": "5.00"
+        },
+        "delivery": {
+          "freeShipping": null,
+          "shippingFrom": "Bulacan"
+        },
+        "seller": {
+          "sellerId": "500218062279",
+          "sellerTitle": "ZORK"
+        }
+      },
+      {
+        "item": {
+          "itemId": "2198813148",
+          "title": "Plastic adjustable laptop stand foldable portable laptop MacBook stand",
+          "brandId": "29872",
+          "brandName": "No Brand",
+          "itemUrl": "//www.lazada.com.ph/products/plastic-adjustable-laptop-stand-foldable-portable-laptop-macbook-stand-i2198813148-s9882969322.html",
+          "sales": null,
+          "image": "//ph-live-01.slatic.net/p/22766e2fec7d68b74bc02c0ff14156a0.jpg",
+          "thumbnails": [
+            {
+              "image": "//ph-live-01.slatic.net/p/7a1816d4707cf8a66fcce2fa6d4a8132.jpg",
+              "sku": "2198813148_PH",
+              "skuId": "9882969322"
+            },
+            {
+              "image": "//ph-live-01.slatic.net/p/c7dfca4aa0cf6deaffc3917800686d74.jpg",
+              "sku": "2198813148_PH",
+              "skuId": "9882969319"
+            },
+            {
+              "image": "//ph-live-01.slatic.net/p/7a1816d4707cf8a66fcce2fa6d4a8132.jpg",
+              "sku": "2198813148_PH",
+              "skuId": "9882969321"
+            },
+            {
+              "image": "//ph-live-01.slatic.net/p/49ffeb2cc660b110d80b9dcd1150fc2e.jpg",
+              "sku": "2198813148_PH",
+              "skuId": "9882969320"
+            }
+          ],
+          "sku": {
+            "def": {
+              "price": "85",
+              "promotionPrice": "32"
+            }
+          },
+          "reviewCount": "88",
+          "averageStarRate": "4.56"
+        },
+        "delivery": {
+          "freeShipping": null,
+          "shippingFrom": "Metro Manila"
+        },
+        "seller": {
+          "sellerId": "500157636110",
+          "sellerTitle": "EWA 3C HUB"
+        }
+      },
+      {
+        "item": {
+          "itemId": "2378896083",
+          "title": "Laptop Stand Portable Hands Free ABS Adjustable Foldable Laptop Desk | FIVERS",
+          "brandId": "29872",
+          "brandName": "No Brand",
+          "itemUrl": "//www.lazada.com.ph/products/laptop-stand-portable-hands-free-abs-adjustable-foldable-laptop-desk-fivers-i2378896083-s10826820317.html",
+          "sales": null,
+          "image": "//ph-live-01.slatic.net/p/5fd57b22e95af7d51421a0986ca715be.jpg",
+          "thumbnails": [
+            {
+              "image": "//ph-live-01.slatic.net/p/0e1224a5639e9542a6c3abc8ed80cb2e.jpg",
+              "sku": "2378896083_PH",
+              "skuId": "10826820317"
+            },
+            {
+              "image": "//ph-live-01.slatic.net/p/b7583262b18f5b8ef17e41583a269dc9.jpg",
+              "sku": "2378896083_PH",
+              "skuId": "12162880838"
+            },
+            {
+              "image": "//ph-live-01.slatic.net/p/2f8dfdadbf89e9be4a50ba1635a7e049.jpg",
+              "sku": "2378896083_PH",
+              "skuId": "12162880839"
+            },
+            {
+              "image": "//ph-live-01.slatic.net/p/7bb44c079191c597d7afd78da2444ef6.jpg",
+              "sku": "2378896083_PH",
+              "skuId": "10826820316"
+            },
+            {
+              "image": "//ph-live-01.slatic.net/p/9f5d77163c7140cab2ebf6873a6ca064.jpg",
+              "sku": "2378896083_PH",
+              "skuId": "10826820315"
+            }
+          ],
+          "sku": {
+            "def": {
+              "price": null,
+              "promotionPrice": "35"
+            }
+          },
+          "reviewCount": "176",
+          "averageStarRate": "4.68"
+        },
+        "delivery": {
+          "freeShipping": null,
+          "shippingFrom": "Metro Manila"
+        },
+        "seller": {
+          "sellerId": "1000324383",
+          "sellerTitle": "Fivers Trading"
+        }
+      },
+      {
+        "item": {
+          "itemId": "3353270333",
+          "title": "P6 Lightweight Plastic Adjustable Laptop Cooling Stand Notebook Holder Foldable Portable Non-slip Support 10-14Inch Laptop Tablet",
+          "brandId": "29872",
+          "brandName": "No Brand",
+          "itemUrl": "//www.lazada.com.ph/products/p6-lightweight-plastic-adjustable-laptop-cooling-stand-notebook-holder-foldable-portable-non-slip-support-10-14inch-laptop-tablet-i3353270333-s17071828398.html",
+          "sales": null,
+          "image": "//ph-live-01.slatic.net/p/7e25da6b884537ac890512175dd5ca88.jpg",
+          "thumbnails": [
+            {
+              "image": "//ph-live-01.slatic.net/p/7e25da6b884537ac890512175dd5ca88.jpg",
+              "sku": "3353270333_PH",
+              "skuId": "17071828398"
+            },
+            {
+              "image": "//ph-live-01.slatic.net/p/990ec7bae7dc00fbaf1620513f28477c.jpg",
+              "sku": "3353270333_PH",
+              "skuId": "17071828396"
+            },
+            {
+              "image": "//ph-live-01.slatic.net/p/ebb4bb4c67e2e60dd739d0f7e21f46d8.jpg",
+              "sku": "3353270333_PH",
+              "skuId": "17071828397"
+            }
+          ],
+          "sku": {
+            "def": {
+              "price": null,
+              "promotionPrice": "88"
+            }
+          },
+          "reviewCount": "1",
+          "averageStarRate": "5.00"
+        },
+        "delivery": {
+          "freeShipping": null,
+          "shippingFrom": "Bulacan"
+        },
+        "seller": {
+          "sellerId": "100089247",
+          "sellerTitle": "Kinggo Shop"
+        }
+      },
+      {
+        "item": {
+          "itemId": "1817399269",
+          "title": "AIKAS AI-P1 Foldable Laptop Stand Portable Desktop Ventilation Cooling Stand",
+          "brandId": "183640",
+          "brandName": "AIKAS",
+          "itemUrl": "//www.lazada.com.ph/products/aikas-ai-p1-foldable-laptop-stand-portable-desktop-ventilation-cooling-stand-i1817399269-s7710728437.html",
+          "sales": null,
+          "image": "//ph-live-01.slatic.net/p/bbfd32095694d5b7bc38b8db164faed5.jpg",
+          "thumbnails": [
+            {
+              "image": "//ph-live-01.slatic.net/p/59f15beb662191f08ea7978cfef01556.jpg",
+              "sku": "1817399269_PH",
+              "skuId": "7710728437"
+            }
+          ],
+          "sku": {
+            "def": {
+              "price": "500",
+              "promotionPrice": "25"
+            }
+          },
+          "reviewCount": "296",
+          "averageStarRate": "4.26"
+        },
+        "delivery": {
+          "freeShipping": null,
+          "shippingFrom": "Metro Manila"
+        },
+        "seller": {
+          "sellerId": "500171589011",
+          "sellerTitle": "AIKAS.ph"
+        }
+      },
+      {
+        "item": {
+          "itemId": "2091425306",
+          "title": "【Supreme Wood】Reinforced Wooden Laptop Stand Cooling Holder Notebook Holder Laptop Riser for 12-15 inch Compatible with Apple MacBook Air Mac Pro and iPad Pro, HP, DELL, Lenovo etc",
+          "brandId": "29872",
+          "brandName": "No Brand",
+          "itemUrl": "//www.lazada.com.ph/products/supreme-woodreinforced-wooden-laptop-stand-cooling-holder-notebook-holder-laptop-riser-for-12-15-inch-compatible-with-apple-macbook-air-mac-pro-and-ipad-pro-hp-dell-lenovo-etc-i2091425306-s9326165296.html",
+          "sales": null,
+          "image": "//ph-live-01.slatic.net/p/3417e1decd0635e9de2eb3973ec08fa5.jpg",
+          "thumbnails": [
+            {
+              "image": "//ph-live-01.slatic.net/p/3417e1decd0635e9de2eb3973ec08fa5.jpg",
+              "sku": "2091425306_PH",
+              "skuId": "9326165296"
+            }
+          ],
+          "sku": {
+            "def": {
+              "price": "399",
+              "promotionPrice": "130"
+            }
+          },
+          "reviewCount": "404",
+          "averageStarRate": "4.94"
+        },
+        "delivery": {
+          "freeShipping": null,
+          "shippingFrom": "Metro Manila"
+        },
+        "seller": {
+          "sellerId": "500162220305",
+          "sellerTitle": "MOOKA"
+        }
+      },
+      {
+        "item": {
+          "itemId": "3430745048",
+          "title": "[100% Original] Laptop Stand Portable Foldable Holder Adjustable Bracket ABS Aluminum Support For Macbook Pro Air Notebook Computer Tablet PhIeo",
+          "brandId": "29872",
+          "brandName": "No Brand",
+          "itemUrl": "//www.lazada.com.ph/products/100-original-laptop-stand-portable-foldable-holder-adjustable-bracket-abs-aluminum-support-for-macbook-pro-air-notebook-computer-tablet-phieo-i3430745048-s17586564647.html",
+          "sales": null,
+          "image": "//ph-live-01.slatic.net/p/3c6793068e92e2964e8538c4d4789df2.png",
+          "thumbnails": [
+            {
+              "image": "//ph-live-01.slatic.net/p/f85e37a96bb7184113129154c8ffe30d.jpg",
+              "sku": "3430745048_PH",
+              "skuId": "17586564647"
+            },
+            {
+              "image": "//ph-live-01.slatic.net/p/cb91378fe1c11a7cd68afc130dbe970d.jpg",
+              "sku": "3430745048_PH",
+              "skuId": "17586564649"
+            },
+            {
+              "image": "//ph-live-01.slatic.net/p/3c6793068e92e2964e8538c4d4789df2.png",
+              "sku": "3430745048_PH",
+              "skuId": "17586564648"
+            }
+          ],
+          "sku": {
+            "def": {
+              "price": "200",
+              "promotionPrice": "40.76"
+            }
+          },
+          "reviewCount": "9",
+          "averageStarRate": "4.11"
+        },
+        "delivery": {
+          "freeShipping": null,
+          "shippingFrom": "Bulacan"
+        },
+        "seller": {
+          "sellerId": "500256063769",
+          "sellerTitle": "PhIeo"
+        }
+      },
+      {
+        "item": {
+          "itemId": "3441154781",
+          "title": "Laptop stands Portable Aluminium Alloy Tablet Stand Bracket Laptop Holder Folding Laptop Stand Holder for Macbook Air Pro Adjustable Computer Bracket",
+          "brandId": "29872",
+          "brandName": "No Brand",
+          "itemUrl": "//www.lazada.com.ph/products/laptop-stands-portable-aluminium-alloy-tablet-stand-bracket-laptop-holder-folding-laptop-stand-holder-for-macbook-air-pro-adjustable-computer-bracket-i3441154781-s17651947798.html",
+          "sales": null,
+          "image": "//ph-live-01.slatic.net/p/f908a6c9cfa9b02ed7254aa9d3753cb5.jpg",
+          "thumbnails": [
+            {
+              "image": "//ph-live-01.slatic.net/p/1ce49c8c8725f525bb28fff33a1106a0.jpg",
+              "sku": "3441154781_PH",
+              "skuId": "17651947798"
+            },
+            {
+              "image": "//ph-live-01.slatic.net/p/120fbe3a39d0591430b4265e9d771aff.jpg",
+              "sku": "3441154781_PH",
+              "skuId": "17651947799"
+            },
+            {
+              "image": "//ph-live-01.slatic.net/p/2f68e89e143dd1dd67d48e61cdbe9e7c.jpg",
+              "sku": "3441154781_PH",
+              "skuId": "17651947797"
+            },
+            {
+              "image": "//ph-live-01.slatic.net/p/10b21e938eed6a45588b73ecb888d820.jpg",
+              "sku": "3441154781_PH",
+              "skuId": "17651947796"
+            }
+          ],
+          "sku": {
+            "def": {
+              "price": null,
+              "promotionPrice": "69.4"
+            }
+          },
+          "reviewCount": "1",
+          "averageStarRate": "5.00"
+        },
+        "delivery": {
+          "freeShipping": null,
+          "shippingFrom": "Bulacan"
+        },
+        "seller": {
+          "sellerId": "500229381752",
+          "sellerTitle": "kuesee"
+        }
+      }
+    ]
+  }
+}
